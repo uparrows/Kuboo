@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="about_answer1">Ubooquity服务器必须启用OPDS 流。
+    \n \nUbooquity服务器必须打开适当的网络端口。
+    \n \n必须允许所有防火墙通过Ubooquity服务器。
+    \n \n您必须使用以下格式:\n 例如: \"http://192.168.0.1:2202/opds-comics/\"</string>
+    <string name="about_answer2">书签是一种混合系统，利用远程和本地数据库. 首先，系统使用本地书签，然后搜索远程书签（如果有）. 如果找到远程书签，则将其作为首选项. 这是为了支持 \"传统\" 尚未升级到Ubooquity 2.0+ 的应用程序.
+    \n\nEpub文件不支持服务器端书签。</string>
+    <string name="about_answer3">双视图强制使用横向模式，并将屏幕分为两页。
+    \n\n如果启用了双视图并且您只看到一个页面，则是由于这些原因:
+    \n\n- 该图像是封面.
+    \n- 图片被认为是宽画幅.
+    \n- 下一张图像被认为很宽，本身需要一整页.
+    \n\n如果宽度大于或等于长度，则认为图像宽.</string>
+    <string name="about_answer4">您可以在Ubooquity服务器软件中更改缩略图的大小。</string>
+    <string name="about_app_disclaimer">\"Kuboo\" 是不以任何形式与Ubooquity相关的独立第三方应用程序。\n
+    \n\"Kuboo\" 提供对互联网的无限制访问，并且不对这些外部资源的可用性或内容负责。\n
+     \n\ 汉化：昭君，访问我的博客: http://yuanfangblog.xyz 获取更多信息
+    \n \n</string>
+    <string name="about_develop_message">我已经开发了这个项目供我个人使用。 我的目标是分享它并为小众阅读社区做出贡献。
+    \n \n谢谢大家的反馈和支持。
+    \n \n特别感谢Tom创建Ubooquity。</string>
+    <string name="about_developer_email">sethchhim@gmail.com</string>
+    <string name="about_developer_name">Seth Chhim</string>
+    <string name="about_faq">帮助</string>
+    <string name="about_google_disclaimer">• Google Play 和 Google Play logo 是谷歌的商标.</string>
+    <string name="about_info">• 源于对阅读的热爱。
+    \n \n• 免费及开源.
+    \n \n• 无广告和特殊权限.
+    \n \n• 专为Ubooquity %1$s 设计和测试.</string>
+    <string name="about_library">资料库</string>
+    <string name="about_license">许可</string>
+    <string name="about_question1">为什么我不能\连接到Ubooquity服务器?</string>
+    <string name="about_question2">书签如何工作？</string>
+    <string name="about_question3">双视图如何工作？</string>
+    <string name="about_question4">为什么我的缩略图像素化?</string>
+
+    <string name="app_label">Kuboo</string>
+    <string name="app_label_debug">Kuboo 调试</string>
+
+    <string name="browser_favorite">最爱</string>
+    <string name="browser_folder">文件夹</string>
+    <string name="browser_media">文件</string>
+    <string name="browser_next">下一页</string>
+    <string name="browser_page">页面</string>
+    <string name="browser_pages">页面</string>
+    <string name="browser_previous">上一页</string>
+    <string name="browser_something_went_wrong">出问题了!</string>
+
+    <string name="dialog_bookmark_found">找到书签!</string>
+    <string name="dialog_browse">浏览</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_connecting_to_server">连接到服务器</string>
+    <string name="dialog_connection_is_encrypted">连接已加密</string>
+    <string name="dialog_copy_to_clipboard">复制到剪贴板</string>
+    <string name="dialog_decline_bookmark">丢弃书签</string>
+    <string name="dialog_default">默认</string>
+    <string name="dialog_delete">删除</string>
+    <string name="dialog_dismiss">取消</string>
+    <string name="dialog_download">下载</string>
+    <string name="dialog_download_tracking">下载追踪</string>
+    <string name="dialog_download_tracking_message">下载跟踪是一项功能，可以自动为您下载一系列书籍。 阅读完一本书后，该书将从您的设备上删除，下一个即将发行的书将排队等待下载。 可以在“设置”中设置排队的项目数。\n</string>
+    <string name="dialog_file_does_not_exist">文件不存在!</string>
+    <string name="dialog_font">字体</string>
+    <string name="dialog_loading_assets">加载资源</string>
+    <string name="dialog_loading_bookmark">加载书签</string>
+    <string name="dialog_loading_dual_pane_mode">加载双视图模式</string>
+    <string name="dialog_loading_single_pane_mode">加载单页模式</string>
+    <string name="dialog_local_file">本地文件</string>
+    <string name="dialog_margin">页边</string>
+    <string name="dialog_of">共</string>
+    <string name="dialog_open_series">系列</string>
+    <string name="dialog_please_restart_to_apply_changes">请重新启动以应用更改。</string>
+    <string name="dialog_please_wait">请稍等…</string>
+    <string name="dialog_rate">评分</string>
+    <string name="dialog_remote_file">远端档案</string>
+    <string name="dialog_remove">移除</string>
+    <string name="dialog_remove_recently_viewed">移除最近浏览的？</string>
+    <string name="dialog_restart">重启</string>
+    <string name="dialog_restart_required">需要重启</string>
+    <string name="dialog_resume_chapter">恢复章节 </string>
+    <string name="dialog_resume_page">恢复页面</string>
+    <string name="dialog_retry">重试</string>
+    <string name="dialog_single_pane">单页</string>
+    <string name="dialog_total">总计</string>
+    <string name="dialog_undo">取消</string>
+
+    <string name="downloads_cancelled">取消</string>
+    <string name="downloads_connection_timed_out">链接超时</string>
+    <string name="downloads_download_not_found">未找到下载</string>
+    <string name="downloads_empty_response_from_server">服务器响应为空</string>
+    <string name="downloads_fetch_database_error">抓取数据库错误</string>
+    <string name="downloads_file_not_created">文件未创建</string>
+    <string name="downloads_finished">完成</string>
+    <string name="downloads_free">剩余</string>
+    <string name="downloads_http_not_found">找不到HTTP</string>
+    <string name="downloads_no_network_connection">无网络连接</string>
+    <string name="downloads_no_storage_space">没有存储空间</string>
+    <string name="downloads_of">共</string>
+    <string name="downloads_pause_all">暂停所有</string>
+    <string name="downloads_paused">已暂停</string>
+    <string name="downloads_queued">队列中</string>
+    <string name="downloads_request_already_exist">已存在请求</string>
+    <string name="downloads_resume">恢复</string>
+    <string name="downloads_resume_all">恢复全部</string>
+    <string name="downloads_retry">重试</string>
+    <string name="downloads_uknown_host">未知的主机</string>
+    <string name="downloads_unknown">未知</string>
+    <string name="downloads_write_permission_denied">写入权限被拒绝</string>
+
+    <string name="login_active_server_removed">活动的服务器已删除!</string>
+    <string name="login_add_server">添加服务器</string>
+    <string name="login_delete_server">删除服务器</string>
+    <string name="login_does_not_contain_opds_books_or_opds_comics">未包含 /opds-books/ 或 /opds-comics/</string>
+    <string name="login_edit_server">编辑服务器</string>
+    <string name="login_example">例如</string>
+    <string name="login_ip_address">IP地址（必填）</string>
+    <string name="login_ip_address_must_not_be_empty">IP地址不能为空!</string>
+    <string name="login_password">密码（可选）</string>
+    <string name="login_server_name">服务器名称（可选）</string>
+    <string name="login_server_removed">服务器已移除!</string>
+    <string name="login_servers">服务器</string>
+    <string name="login_show">展示</string>
+    <string name="login_something_went_wrong">出问题了！</string>
+    <string name="login_username">用户名（可选）</string>
+
+    <string name="main_about">关于</string>
+    <string name="main_browse">浏览</string>
+    <string name="main_cancel">取消</string>
+    <string name="main_close_drawer">关闭抽屉</string>
+    <string name="main_decline">拒绝</string>
+    <string name="main_downloads">下载</string>
+    <string name="main_failed_to_load_assets">加载资源失败!</string>
+    <string name="main_file_type_not_supported">不支持的文件类型！</string>
+    <string name="main_folder_is_empty">文件夹为空！</string>
+    <string name="main_home_welcome">欢迎</string>
+    <string name="main_https">Https</string>
+    <string name="main_latest">最新</string>
+    <string name="main_latest_added">最新添加</string>
+    <string name="main_latest_no_items_found">未找到任何项目!</string>
+    <string name="main_log">日志</string>
+    <string name="main_more">更多</string>
+    <string name="main_no_server_detected">未检测到服务器!</string>
+    <string name="main_open_drawer">打开抽屉</string>
+    <string name="main_open_series">打开系列</string>
+    <string name="main_please_select_a_server">请选择一个服务器</string>
+    <string name="main_press_back_again_to_exit">再按一次退出.</string>
+    <string name="main_read_now">立即阅读</string>
+    <string name="main_recent">最近</string>
+    <string name="main_recently_viewed">最近浏览过的</string>
+    <string name="main_remove">移除</string>
+    <string name="main_resume">恢复</string>
+    <string name="main_search">搜索</string>
+    <string name="main_select_all">选择全部</string>
+    <string name="main_selected">已选择</string>
+    <string name="main_series">系列</string>
+    <string name="main_server_not_available">服务器不可用！</string>
+    <string name="main_settings">设置</string>
+    <string name="main_settings_advanced">高级设置</string>
+    <string name="main_start_reading_to_add_items">开始阅读以添加项目！</string>
+    <string name="main_text_copied_to_clipboard">文字已复制到剪贴板</string>
+
+    <string name="notification_browse">浏览</string>
+    <string name="notification_cancel">取消</string>
+    <string name="notification_dismiss">丢弃</string>
+    <string name="notification_download_in_progress">下载中…</string>
+    <string name="notification_download_in_progress_remaining">正在进行下载中 %1$s 剩余</string>
+    <string name="notification_download_service_paused">下载服务已暂停.</string>
+    <string name="notification_finished_download_of">完成下载</string>
+    <string name="notification_item">项目</string>
+    <string name="notification_items">项目</string>
+    <string name="notification_loading">加载中</string>
+    <string name="notification_pause">暂停</string>
+    <string name="notification_please_wait">请稍等…</string>
+    <string name="notification_resume">恢复</string>
+
+    <string name="reader_aspect_fill">适应填充</string>
+    <string name="reader_aspect_fit">适应宽度</string>
+    <string name="reader_aspect_fit_width">适应高度</string>
+    <string name="reader_chapters">章节</string>
+    <string name="reader_dual_pane">双页模式</string>
+    <string name="reader_end_of_series">系列结束</string>
+    <string name="reader_info">信息</string>
+    <string name="reader_manga_mode">漫画模式</string>
+    <string name="reader_menu">菜单</string>
+    <string name="reader_next">下</string>
+    <string name="reader_of">共</string>
+    <string name="reader_page">页</string>
+    <string name="reader_pip_requires_android_oreo_or_above">pip需要Android8或更高版本！</string>
+    <string name="reader_read">阅读</string>
+    <string name="reader_something_went_wrong">出问题了！</string>
+    <string name="reader_swipe_down_to_refresh">向下滑动即可刷新。</string>
+
+    <string name="settings_about">关于</string>
+    <string name="settings_active_server">活动服务器</string>
+    <string name="settings_advanced">高级</string>
+    <string name="settings_more_advanced_options">更多高级选项</string>
+    <string name="settings_home_recently_viewed_height_offset">最近查看的高度偏移</string>
+    <string name="settings_adjust_height_offset_of_the_recently_viewed_row">调整最近查看的行的高度偏移。 仅在主屏幕包含多个子行时适用。</string>
+    <string name="settings_apply">应用</string>
+    <string name="settings_aspect_fill">填充</string>
+    <string name="settings_aspect_fit">适应宽度</string>
+    <string name="settings_auto">自动（默认）</string>
+    <string name="settings_browser">浏览</string>
+    <string name="settings_cancel">取消</string>
+    <string name="settings_comic">漫画</string>
+    <string name="settings_confirm">确认</string>
+    <string name="settings_content_starts_from_the_bottom_towards_top">内容从下到上</string>
+    <string name="settings_default">默认</string>
+    <string name="settings_do_not_ask_again">不再提醒.</string>
+    <string name="settings_download">下载</string>
+    <string name="settings_dual_pane_mode">双页模式</string>
+    <string name="settings_epub">Epub</string>
+    <string name="settings_experimental">实验性</string>
+    <string name="settings_favorite">喜爱</string>
+    <string name="settings_finished_items_will_be_darkened">阅读完的条目将变暗</string>
+    <string name="settings_finished_notification">完成通知</string>
+    <string name="settings_fit_width">适应宽度</string>
+    <string name="settings_force_downsizing">强制缩小</string>
+    <string name="settings_force_downsizing_summary">降低图像分辨率，以防止出现内存不足错误</string>
+    <string name="settings_hide_tracking_series_that_have_been_fully_read_and_have_no_further_content_available">隐藏已被完全阅读且没有其他可用内容的系列</string>
+    <string name="settings_home">主页</string>
+    <string name="settings_hours">小时</string>
+    <string name="settings_keep_screen_on">保持萤幕开启</string>
+    <string name="settings_landscape">横屏</string>
+    <string name="settings_layout">布局</string>
+    <string-array name="settings_layout_entries">
+        <item>@string/settings_recently_viewed_only</item>
+        <item>@string/settings_recent_viewed_plus_latest</item>
+    </string-array>
+    <string name="settings_manga_mode">漫画模式</string>
+    <string name="settings_margin">边距</string>
+    <string name="settings_mark_finished">标记完成</string>
+    <string name="settings_none">无</string>
+    <string name="settings_orientation">方向</string>
+    <string-array name="settings_orientation_entries">
+        <item>@string/settings_auto</item>
+        <item>@string/settings_portrait</item>
+        <item>@string/settings_landscape</item>
+    </string-array>
+    <string name="settings_portrait">竖屏</string>
+    <string name="settings_preview">预览</string>
+    <string name="settings_protect_your_mobile_data_limit">移动数据限制保护</string>
+    <string name="settings_read_two_pages_simultaneously_in_landscape_mode">在横向模式下同时阅读两页</string>
+    <string name="settings_reader">阅读器</string>
+    <string name="settings_reader_scroll_offset">阅读器滚动偏移</string>
+    <string name="settings_reader_screen_will_keep_the_device_awake">阅读器亮屏将使设备保持唤醒状态</string>
+    <string name="settings_recent_viewed_plus_latest">最近浏览+最新</string>
+    <string name="settings_recently_viewed_only">仅最近浏览</string>
+    <string name="settings_remaining">剩余</string>
+    <string name="settings_reverse_layout">反向布局</string>
+    <string name="settings_reverse_reading_order">反向顺序阅读</string>
+    <string name="settings_save_path">保存路径</string>
+    <string name="settings_server">服务器</string>
+    <string name="settings_show_a_notification_after_downloads_are_finished">下载完成后显示通知</string>
+    <string name="settings_show_favorite_buttons">显示收藏夹按钮</string>
+    <string name="settings_show_preview_page_before_reading">阅读前显示预览页面</string>
+    <string name="settings_start_tab">开始标签</string>
+    <string-array name="settings_start_tab_entries">
+        <item>@string/settings_home</item>
+        <item>@string/settings_browser</item>
+        <item>@string/settings_download</item>
+    </string-array>
+    <string name="settings_system">系统</string>
+    <string name="settings_text_zoom">文字缩放</string>
+    <string name="settings_theme">主题</string>
+    <string-array name="settings_theme_entries">
+        <item>@string/settings_theme_entry_dark_theme</item>
+        <item>@string/settings_theme_entry_oled_theme</item>
+    </string-array>
+    <string name="settings_theme_entry_dark_theme">黑暗主题</string>
+    <string name="settings_theme_entry_oled_theme">OLED主题</string>
+    <string name="settings_tracking_hide_finished">隐藏完成</string>
+    <string name="settings_tracking_interval">隐藏间隔</string>
+    <string name="settings_tracking_limit">隐藏限制</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_volume_buttons_will_turn_page">音量按钮将翻页</string>
+    <string name="settings_volume_page_turn">音量翻页</string>
+    <string name="settings_disable_cellular">禁用手机</string>
+    <string name="settings_shared_element_transition">共享元素转移</string>
+    <string name="settings_show_transition_animations">显示过渡动画</string>
+
+    <string name="title_browse">浏览</string>
+    <string name="title_downloads">下载</string>
+    <string name="title_home">主页</string>
+    <string name="title_settings">设置</string>
+</resources>
