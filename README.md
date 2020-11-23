@@ -1,4 +1,6 @@
 # Kuboo
+在原有基础上添加中文语言
+
 ![kuboo-feature-graphic-stars](https://user-images.githubusercontent.com/11790350/41466763-9e5a1a80-7071-11e8-9063-a69718340853.png)
 
 This lightweight Android application can load books for the [Ubooquity](https://vaemendis.net/ubooquity/) server software.
